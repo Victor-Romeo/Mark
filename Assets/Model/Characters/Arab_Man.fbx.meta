@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: df9f39cb9524fb2458c841b52b6bb03e
+timeCreated: 1461692639
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Background
+    100004: Background.2
+    100006: Beard
+    100008: Body
+    100010: bottom
+    100012: EyesInner_Color
+    100014: EyesOutter
+    100016: headcover
+    100018: Light_floor
+    100020: Light_floor.10
+    100022: Light_floor.11
+    100024: Light_floor.12
+    100026: Light_floor.13
+    100028: Light_floor.14
+    100030: Light_floor.15
+    100032: Light_floor.16
+    100034: Light_floor.17
+    100036: Light_floor.18
+    100038: Light_floor.19
+    100040: Light_floor.2
+    100042: Light_floor.20
+    100044: Light_floor.21
+    100046: Light_floor.22
+    100048: Light_floor.23
+    100050: Light_floor.24
+    100052: Light_floor.25
+    100054: Light_floor.3
+    100056: Light_floor.4
+    100058: Light_floor.5
+    100060: Light_floor.6
+    100062: Light_floor.7
+    100064: Light_floor.8
+    100066: Light_floor.9
+    100068: Light_sky
+    100070: light_sky
+    100072: Light_sky.10
+    100074: Light_sky.11
+    100076: Light_sky.12
+    100078: Light_sky.13
+    100080: Light_sky.14
+    100082: Light_sky.15
+    100084: Light_sky.16
+    100086: Light_sky.17
+    100088: Light_sky.18
+    100090: Light_sky.19
+    100092: Light_sky.2
+    100094: Light_sky.20
+    100096: Light_sky.21
+    100098: Light_sky.22
+    100100: Light_sky.23
+    100102: Light_sky.24
+    100104: Light_sky.25
+    100106: Light_sky.3
+    100108: Light_sky.4
+    100110: Light_sky.5
+    100112: Light_sky.6
+    100114: Light_sky.7
+    100116: Light_sky.8
+    100118: Light_sky.9
+    100120: lights_floor
+    100122: Lightsphere_Environment
+    100124: Null Object
+    100126: Place_your_Object_here
+    100128: Place_your_Object_here.2
+    100130: Target
+    100132: target
+    100134: Target.2
+    100136: top
+    400000: //RootNode
+    400002: Background
+    400004: Background.2
+    400006: Beard
+    400008: Body
+    400010: bottom
+    400012: EyesInner_Color
+    400014: EyesOutter
+    400016: headcover
+    400018: Light_floor
+    400020: Light_floor.10
+    400022: Light_floor.11
+    400024: Light_floor.12
+    400026: Light_floor.13
+    400028: Light_floor.14
+    400030: Light_floor.15
+    400032: Light_floor.16
+    400034: Light_floor.17
+    400036: Light_floor.18
+    400038: Light_floor.19
+    400040: Light_floor.2
+    400042: Light_floor.20
+    400044: Light_floor.21
+    400046: Light_floor.22
+    400048: Light_floor.23
+    400050: Light_floor.24
+    400052: Light_floor.25
+    400054: Light_floor.3
+    400056: Light_floor.4
+    400058: Light_floor.5
+    400060: Light_floor.6
+    400062: Light_floor.7
+    400064: Light_floor.8
+    400066: Light_floor.9
+    400068: Light_sky
+    400070: light_sky
+    400072: Light_sky.10
+    400074: Light_sky.11
+    400076: Light_sky.12
+    400078: Light_sky.13
+    400080: Light_sky.14
+    400082: Light_sky.15
+    400084: Light_sky.16
+    400086: Light_sky.17
+    400088: Light_sky.18
+    400090: Light_sky.19
+    400092: Light_sky.2
+    400094: Light_sky.20
+    400096: Light_sky.21
+    400098: Light_sky.22
+    400100: Light_sky.23
+    400102: Light_sky.24
+    400104: Light_sky.25
+    400106: Light_sky.3
+    400108: Light_sky.4
+    400110: Light_sky.5
+    400112: Light_sky.6
+    400114: Light_sky.7
+    400116: Light_sky.8
+    400118: Light_sky.9
+    400120: lights_floor
+    400122: Lightsphere_Environment
+    400124: Null Object
+    400126: Place_your_Object_here
+    400128: Place_your_Object_here.2
+    400130: Target
+    400132: target
+    400134: Target.2
+    400136: top
+    2300000: Beard
+    2300002: Body
+    2300004: bottom
+    2300006: EyesInner_Color
+    2300008: EyesOutter
+    2300010: headcover
+    2300012: Place_your_Object_here.2
+    2300014: Target
+    2300016: top
+    3300000: Beard
+    3300002: Body
+    3300004: bottom
+    3300006: EyesInner_Color
+    3300008: EyesOutter
+    3300010: headcover
+    3300012: Place_your_Object_here.2
+    3300014: Target
+    3300016: top
+    4300000: Place_your_Object_here.2
+    4300002: Target
+    4300004: EyesInner_Color
+    4300006: EyesOutter
+    4300008: headcover
+    4300010: top
+    4300012: bottom
+    4300014: Beard
+    4300016: Body
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
