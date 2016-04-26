@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: 5c25d886fa2334fbf93decf8c643d5b1
+timeCreated: 1461706074
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Compass001
+    100002: Daylight001
+    100004: miAreaLightomni001
+    100006: Sky002
+    100008: Sun001
+    100010: //RootNode
+    100012: YK Woman Hijab
+    100014: YK Woman Hijab 1
+    100016: YK Woman Hijab Footsteps
+    100018: YK Woman Hijab Head
+    100020: YK Woman Hijab HeadNub
+    100022: YK Woman Hijab L Calf
+    100024: YK Woman Hijab L Clavicle
+    100026: YK Woman Hijab L Finger0
+    100028: YK Woman Hijab L Finger01
+    100030: YK Woman Hijab L Finger02
+    100032: YK Woman Hijab L Finger0Nub
+    100034: YK Woman Hijab L Finger1
+    100036: YK Woman Hijab L Finger11
+    100038: YK Woman Hijab L Finger12
+    100040: YK Woman Hijab L Finger1Nub
+    100042: YK Woman Hijab L Finger2
+    100044: YK Woman Hijab L Finger21
+    100046: YK Woman Hijab L Finger22
+    100048: YK Woman Hijab L Finger2Nub
+    100050: YK Woman Hijab L Finger3
+    100052: YK Woman Hijab L Finger31
+    100054: YK Woman Hijab L Finger32
+    100056: YK Woman Hijab L Finger3Nub
+    100058: YK Woman Hijab L Finger4
+    100060: YK Woman Hijab L Finger41
+    100062: YK Woman Hijab L Finger42
+    100064: YK Woman Hijab L Finger4Nub
+    100066: YK Woman Hijab L Foot
+    100068: YK Woman Hijab L Forearm
+    100070: YK Woman Hijab L ForeTwist
+    100072: YK Woman Hijab L ForeTwist1
+    100074: YK Woman Hijab L Hand
+    100076: YK Woman Hijab L Thigh
+    100078: YK Woman Hijab L Toe0
+    100080: YK Woman Hijab L Toe0Nub
+    100082: YK Woman Hijab L UpperArm
+    100084: YK Woman Hijab LUpArmTwist
+    100086: YK Woman Hijab LUpArmTwist1
+    100088: YK Woman Hijab LUpArmTwist2
+    100090: YK Woman Hijab Neck
+    100092: YK Woman Hijab Panta
+    100094: YK Woman Hijab Pelvis
+    100096: YK Woman Hijab R Calf
+    100098: YK Woman Hijab R Clavicle
+    100100: YK Woman Hijab R Finger0
+    100102: YK Woman Hijab R Finger01
+    100104: YK Woman Hijab R Finger02
+    100106: YK Woman Hijab R Finger0Nub
+    100108: YK Woman Hijab R Finger1
+    100110: YK Woman Hijab R Finger11
+    100112: YK Woman Hijab R Finger12
+    100114: YK Woman Hijab R Finger1Nub
+    100116: YK Woman Hijab R Finger2
+    100118: YK Woman Hijab R Finger21
+    100120: YK Woman Hijab R Finger22
+    100122: YK Woman Hijab R Finger2Nub
+    100124: YK Woman Hijab R Finger3
+    100126: YK Woman Hijab R Finger31
+    100128: YK Woman Hijab R Finger32
+    100130: YK Woman Hijab R Finger3Nub
+    100132: YK Woman Hijab R Finger4
+    100134: YK Woman Hijab R Finger41
+    100136: YK Woman Hijab R Finger42
+    100138: YK Woman Hijab R Finger4Nub
+    100140: YK Woman Hijab R Foot
+    100142: YK Woman Hijab R Forearm
+    100144: YK Woman Hijab R ForeTwist
+    100146: YK Woman Hijab R ForeTwist1
+    100148: YK Woman Hijab R Hand
+    100150: YK Woman Hijab R Thigh
+    100152: YK Woman Hijab R Toe0
+    100154: YK Woman Hijab R Toe0Nub
+    100156: YK Woman Hijab R UpperArm
+    100158: YK Woman Hijab RUpArmTwist
+    100160: YK Woman Hijab RUpArmTwist1
+    100162: YK Woman Hijab RUpArmTwist2
+    100164: YK Woman Hijab Shert
+    100166: YK Woman Hijab Spine
+    100168: YK Woman Hijab Spine1
+    100170: YK Woman Hijab Spine2
+    400000: Compass001
+    400002: Daylight001
+    400004: miAreaLightomni001
+    400006: Sky002
+    400008: Sun001
+    400010: //RootNode
+    400012: YK Woman Hijab
+    400014: YK Woman Hijab 1
+    400016: YK Woman Hijab Footsteps
+    400018: YK Woman Hijab Head
+    400020: YK Woman Hijab HeadNub
+    400022: YK Woman Hijab L Calf
+    400024: YK Woman Hijab L Clavicle
+    400026: YK Woman Hijab L Finger0
+    400028: YK Woman Hijab L Finger01
+    400030: YK Woman Hijab L Finger02
+    400032: YK Woman Hijab L Finger0Nub
+    400034: YK Woman Hijab L Finger1
+    400036: YK Woman Hijab L Finger11
+    400038: YK Woman Hijab L Finger12
+    400040: YK Woman Hijab L Finger1Nub
+    400042: YK Woman Hijab L Finger2
+    400044: YK Woman Hijab L Finger21
+    400046: YK Woman Hijab L Finger22
+    400048: YK Woman Hijab L Finger2Nub
+    400050: YK Woman Hijab L Finger3
+    400052: YK Woman Hijab L Finger31
+    400054: YK Woman Hijab L Finger32
+    400056: YK Woman Hijab L Finger3Nub
+    400058: YK Woman Hijab L Finger4
+    400060: YK Woman Hijab L Finger41
+    400062: YK Woman Hijab L Finger42
+    400064: YK Woman Hijab L Finger4Nub
+    400066: YK Woman Hijab L Foot
+    400068: YK Woman Hijab L Forearm
+    400070: YK Woman Hijab L ForeTwist
+    400072: YK Woman Hijab L ForeTwist1
+    400074: YK Woman Hijab L Hand
+    400076: YK Woman Hijab L Thigh
+    400078: YK Woman Hijab L Toe0
+    400080: YK Woman Hijab L Toe0Nub
+    400082: YK Woman Hijab L UpperArm
+    400084: YK Woman Hijab LUpArmTwist
+    400086: YK Woman Hijab LUpArmTwist1
+    400088: YK Woman Hijab LUpArmTwist2
+    400090: YK Woman Hijab Neck
+    400092: YK Woman Hijab Panta
+    400094: YK Woman Hijab Pelvis
+    400096: YK Woman Hijab R Calf
+    400098: YK Woman Hijab R Clavicle
+    400100: YK Woman Hijab R Finger0
+    400102: YK Woman Hijab R Finger01
+    400104: YK Woman Hijab R Finger02
+    400106: YK Woman Hijab R Finger0Nub
+    400108: YK Woman Hijab R Finger1
+    400110: YK Woman Hijab R Finger11
+    400112: YK Woman Hijab R Finger12
+    400114: YK Woman Hijab R Finger1Nub
+    400116: YK Woman Hijab R Finger2
+    400118: YK Woman Hijab R Finger21
+    400120: YK Woman Hijab R Finger22
+    400122: YK Woman Hijab R Finger2Nub
+    400124: YK Woman Hijab R Finger3
+    400126: YK Woman Hijab R Finger31
+    400128: YK Woman Hijab R Finger32
+    400130: YK Woman Hijab R Finger3Nub
+    400132: YK Woman Hijab R Finger4
+    400134: YK Woman Hijab R Finger41
+    400136: YK Woman Hijab R Finger42
+    400138: YK Woman Hijab R Finger4Nub
+    400140: YK Woman Hijab R Foot
+    400142: YK Woman Hijab R Forearm
+    400144: YK Woman Hijab R ForeTwist
+    400146: YK Woman Hijab R ForeTwist1
+    400148: YK Woman Hijab R Hand
+    400150: YK Woman Hijab R Thigh
+    400152: YK Woman Hijab R Toe0
+    400154: YK Woman Hijab R Toe0Nub
+    400156: YK Woman Hijab R UpperArm
+    400158: YK Woman Hijab RUpArmTwist
+    400160: YK Woman Hijab RUpArmTwist1
+    400162: YK Woman Hijab RUpArmTwist2
+    400164: YK Woman Hijab Shert
+    400166: YK Woman Hijab Spine
+    400168: YK Woman Hijab Spine1
+    400170: YK Woman Hijab Spine2
+    4300000: YK Woman Hijab
+    4300002: YK Woman Hijab Panta
+    4300004: YK Woman Hijab Shert
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: YK Woman Hijab 1
+    13700002: YK Woman Hijab Panta
+    13700004: YK Woman Hijab Shert
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
