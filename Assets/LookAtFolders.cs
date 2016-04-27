@@ -9,6 +9,10 @@ public class LookAtFolders : MonoBehaviour {
 	public bool yellowFolder;
 	public bool purpleFolder;
 
+	public Animator orangeAnimator;
+	public Animator yellowAnimator;
+	public Animator purpleAnimator;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -16,7 +20,6 @@ public class LookAtFolders : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
 
 		//Stare at folders
 		Debug.DrawRay (transform.position, transform.TransformDirection (Vector3.forward) * 100000, Color.green);
@@ -27,25 +30,44 @@ public class LookAtFolders : MonoBehaviour {
 					orangeFolder = true;
 					yellowFolder = false;
 					purpleFolder = false;
+					orangeAnimator.SetBool ("Animate", true);
+					purpleAnimator.SetBool ("Animate", false);
+					yellowAnimator.SetBool ("Animate", false);
 				} else if (hit.transform.gameObject.name == "YellowCollider") {
 					yellowFolder = true;
 					orangeFolder = false;
 					purpleFolder = false;
+					yellowAnimator.SetBool ("Animate", true);
+					purpleAnimator.SetBool ("Animate", false);
+					orangeAnimator.SetBool ("Animate", false);
 				} else if (hit.transform.gameObject.name == "PurpleCollider") {
 					purpleFolder = true;
 					orangeFolder = false;
 					yellowFolder = false;
+					purpleAnimator.SetBool ("Animate", true);
+					yellowAnimator.SetBool ("Animate", false);
+					orangeAnimator.SetBool ("Animate", false);
 				} 
 				Debug.DrawRay (transform.position, transform.TransformDirection (Vector3.forward) * 100000, Color.red);
 			} else {
 				orangeFolder = false;
 				yellowFolder = false;
 				purpleFolder = false;
+				purpleAnimator.SetBool ("Animate", false);
+				yellowAnimator.SetBool ("Animate", false);
+				orangeAnimator.SetBool ("Animate", false);
 			}
 		} else {
 			orangeFolder = false;
 			yellowFolder = false;
 			purpleFolder = false;
+			purpleAnimator.SetBool ("Animate", false);
+			yellowAnimator.SetBool ("Animate", false);
+			orangeAnimator.SetBool ("Animate", false);
 		}
+
+
+
+
 	}
 }
