@@ -17,6 +17,9 @@ public class LookAtFolders : MonoBehaviour {
 	public int badGuyIndex;
 	public float badGuyAudioLength;
 
+	public GameObject coPresence;
+	public Animator coPresenceAnimator;
+
 	// Use this for initialization
 	void Start () {
 
@@ -41,6 +44,12 @@ public class LookAtFolders : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		if (!coPresence.GetComponent<AudioSource> ().isPlaying) {
+			coPresenceAnimator.SetFloat("Blend",0f);
+		} else {
+			coPresenceAnimator.SetFloat("Blend",1f);
+		}
+
 		//Stare at folders
 		Debug.DrawRay (transform.position, transform.TransformDirection (Vector3.forward) * 100000, Color.green);
 
@@ -48,8 +57,8 @@ public class LookAtFolders : MonoBehaviour {
 			if (hit.transform.gameObject.tag == ("Folder")) {
 				if (hit.transform.gameObject.name == "OrangeCollider") {
 
-					if(transform.GetComponent<AudioSource> ().isPlaying){
-						transform.GetComponent<AudioSource> ().clip = audios [2];
+					if(!coPresence.GetComponent<AudioSource> ().isPlaying){
+						coPresence.GetComponent<AudioSource> ().clip = audios [2];
 					}
 
 					orangeFolder = true;
@@ -60,8 +69,8 @@ public class LookAtFolders : MonoBehaviour {
 					yellowAnimator.SetBool ("Animate", false);
 				} else if (hit.transform.gameObject.name == "YellowCollider") {
 
-					if (transform.GetComponent<AudioSource> ().isPlaying) {
-						transform.GetComponent<AudioSource> ().clip = audios [1];
+					if (!coPresence.GetComponent<AudioSource> ().isPlaying) {
+						coPresence.GetComponent<AudioSource> ().clip = audios [1];
 					}
 
 					yellowFolder = true;
@@ -72,8 +81,8 @@ public class LookAtFolders : MonoBehaviour {
 					orangeAnimator.SetBool ("Animate", false);
 				} else if (hit.transform.gameObject.name == "PurpleCollider") {
 
-					if (transform.GetComponent<AudioSource> ().isPlaying) {
-						transform.GetComponent<AudioSource> ().clip = audios [0];
+					if (!coPresence.GetComponent<AudioSource> ().isPlaying) {
+						coPresence.GetComponent<AudioSource> ().clip = audios [0];
 					}
 
 					purpleFolder = true;
@@ -129,7 +138,7 @@ public class LookAtFolders : MonoBehaviour {
 
 		if (Input.GetButton ("Fire2")) {
 			if(orangeFolder || yellowFolder || purpleFolder){
-				transform.GetComponent<AudioSource> ().Play ();
+				coPresence.GetComponent<AudioSource> ().Play ();
 				GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().didNotProfile = true;
 			}
 		}

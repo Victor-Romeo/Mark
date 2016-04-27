@@ -13,3 +13,7 @@ EditorBuildSettings:
     path: Assets/OSVRUnity/Sample/Demo/Scenes/OSVRDemo2.unity
   - enabled: 1
     path: Assets/Scene/InformationChoice.unity
+  - enabled: 1
+    path: Assets/Scene/MiddleScene.unity
+  - enabled: 1
+    path: Assets/Scene/FinalScene.unity
