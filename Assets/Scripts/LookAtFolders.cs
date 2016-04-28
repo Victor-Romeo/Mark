@@ -17,6 +17,7 @@ public class LookAtFolders : MonoBehaviour {
 	public AudioClip startAudioClip;
 	public AudioClip hurryUpAudioClip;
 	public AudioClip finalChoiceAudioClip;
+	public AudioClip timesUpAudioClip;
 	public AudioSource audioSource;
 	public int badGuyIndex;
 	public float badGuyAudioLength;
@@ -30,6 +31,7 @@ public class LookAtFolders : MonoBehaviour {
 	public bool hurryUpIsDone;
 	public bool secondChoiceIsDone;
 	public bool finalAudioIsDone;
+	public bool timesUpAudioIsDone;
 
 	// Use this for initialization
 	void Start () {
@@ -167,13 +169,12 @@ public class LookAtFolders : MonoBehaviour {
 						}
 						Application.LoadLevel (1);
 					}
-
-					if (Input.GetButton ("Fire2")) {
-						if (orangeFolder || yellowFolder || purpleFolder) {
-							state++;
-							audioSource.Play ();
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().didNotProfile = true;
-						}
+				}
+				if (Input.GetButton ("Fire2")) {
+					if (orangeFolder || yellowFolder || purpleFolder) {
+						state++;
+						audioSource.Play ();
+						GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().didNotProfile = true;
 					}
 				}
 			}
@@ -271,11 +272,20 @@ public class LookAtFolders : MonoBehaviour {
 
 				if (Input.GetButton ("Fire2")) {
 					if (orangeFolder || yellowFolder || purpleFolder) {
-						//maybe play audio source
-						Application.LoadLevel (1); 
+						audioSource.clip = timesUpAudioClip;
+						audioSource.Play ();
+						state++;
 					}
 				}
 			}
-		} 
+		} else if (state == 5) { 
+			if (!audioSource.isPlaying) {
+				timesUpAudioIsDone = true;
+			}
+
+			if (timesUpAudioIsDone) {
+				Application.LoadLevel (1); 
+			}
+		}
 	}
 }
