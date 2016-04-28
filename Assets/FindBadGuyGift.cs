@@ -5,6 +5,8 @@ public class FindBadGuyGift : MonoBehaviour {
 
 	RaycastHit hit;
 
+	public GameObject[] explosionPrefabs = new GameObject[5];
+
 	// Use this for initialization
 	void Start () {
 	
@@ -17,15 +19,23 @@ public class FindBadGuyGift : MonoBehaviour {
 		if (Physics.Raycast (transform.position, transform.TransformDirection (Vector3.forward) * 1, out hit)) {
 			if (hit.transform.gameObject.tag == ("Friend")) {
 				if (Input.GetButton ("Fire1")) {
-					//Call explosion
+					OperationBoomBoom ();
 				}
-			} else if (hit.transform.gameObject.tag == ("BadGuys")) {
+			} else if (hit.transform.gameObject.tag == ("BadGuy")) {
 				if (Input.GetButton ("Fire1")) {
-					//Call success
+					transform.GetComponent<AudioSource> ().Play ();
+
 				}
 			}
 		} else {
 			
 		}
+	}
+
+	void OperationBoomBoom(){
+		foreach(GameObject explosion in explosionPrefabs){
+			explosion.GetComponent<Detonator>().enabled = true;
+		}
+
 	}
 }
