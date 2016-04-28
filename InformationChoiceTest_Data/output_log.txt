@@ -1,10 +1,3 @@
-Mono path[0] = 'C:/Users/jakem/Documents/GitHub/Mark/InformationChoiceTest_Data/Managed'
-Mono path[1] = 'C:/Users/jakem/Documents/GitHub/Mark/InformationChoiceTest_Data/Mono'
-Mono config path = 'C:/Users/jakem/Documents/GitHub/Mark/InformationChoiceTest_Data/Mono/etc'
-PlayerConnection initialized from C:/Users/jakem/Documents/GitHub/Mark/InformationChoiceTest_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55404
-Multi-casting "[IP] 10.136.84.84 [Port] 55404 [Flags] 2 [Guid] 1632631388 [EditorId] 1443763976 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-GLE6GOF) [Debug] 0" to [225.0.0.222:54997]...
-PlayerConnection already initialized - listening to [10.136.84.84:55404]
 Initialize engine version: 5.3.4f1 (fdbb5133b820)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -25,73 +18,59 @@ Platform assembly: C:\Users\jakem\Documents\GitHub\Mark\InformationChoiceTest_Da
 Loading C:\Users\jakem\Documents\GitHub\Mark\InformationChoiceTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\jakem\Documents\GitHub\Mark\InformationChoiceTest_Data\Managed\OSVR.ClientKit.dll (this message is harmless)
 Loading C:\Users\jakem\Documents\GitHub\Mark\InformationChoiceTest_Data\Managed\OSVR.ClientKit.dll into Unity Child Domain
-- Completed reload, in  0.203 seconds
+- Completed reload, in  0.068 seconds
 Platform assembly: C:\Users\jakem\Documents\GitHub\Mark\InformationChoiceTest_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\jakem\Documents\GitHub\Mark\InformationChoiceTest_Data\Managed\System.dll (this message is harmless)
-desktop: 3200x1800 60Hz; virtual: 3200x1800 at 0,0
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-desktop: 3200x1800 60Hz; virtual: 3200x1800 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 5.349265 ms
+UnloadTime: 0.721726 ms
 [OSVR-Unity] In OnEnable()
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-OSVR.Unity.ClientKit:OnEnable() (at C:\Users\jakem\Documents\GitHub\Mark\Assets\OSVRUnity\src\ClientKit.cs:136)
  
-(Filename: C:/Users/jakem/Documents/GitHub/Mark/Assets/OSVRUnity/src/ClientKit.cs Line: 136)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-[OSVR-Unity] Starting with app ID: com.Test.Scene
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-OSVR.Unity.ClientKit:EnsureStarted() (at C:\Users\jakem\Documents\GitHub\Mark\Assets\OSVRUnity\src\ClientKit.cs:90)
-OSVR.Unity.ClientKit:OnEnable() (at C:\Users\jakem\Documents\GitHub\Mark\Assets\OSVRUnity\src\ClientKit.cs:137)
+[OSVR-Unity] Starting with app ID: com.Mark.osvr
  
-(Filename: C:/Users/jakem/Documents/GitHub/Mark/Assets/OSVRUnity/src/ClientKit.cs Line: 90)
-
-[OSVR-Unity] OSVR Server not detected. Start OSVR Server and restart the application.
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-OSVR.Unity.ClientKit:EnsureStarted() (at C:\Users\jakem\Documents\GitHub\Mark\Assets\OSVRUnity\src\ClientKit.cs:100)
-OSVR.Unity.ClientKit:OnEnable() (at C:\Users\jakem\Documents\GitHub\Mark\Assets\OSVRUnity\src\ClientKit.cs:137)
- 
-(Filename: C:/Users/jakem/Documents/GitHub/Mark/Assets/OSVRUnity/src/ClientKit.cs Line: 100)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
 [OSVR-Unity] In Start()
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-OSVR.Unity.ClientKit:Start() (at C:\Users\jakem\Documents\GitHub\Mark\Assets\OSVRUnity\src\ClientKit.cs:130)
  
-(Filename: C:/Users/jakem/Documents/GitHub/Mark/Assets/OSVRUnity/src/ClientKit.cs Line: 130)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+[OSVR-Unity] Failed to create RenderManager.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 454 -> priority: 1 
-  Thread -> id: 3a0 -> priority: 1 
-[OSVR-Unity] Display Startup failed. Check HMD connection.
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-OSVR.Unity.VRViewer:DoRendering() (at C:\Users\jakem\Documents\GitHub\Mark\Assets\OSVRUnity\src\VRViewer.cs:277)
-OSVR.Unity.VRViewer:OnPreCull() (at C:\Users\jakem\Documents\GitHub\Mark\Assets\OSVRUnity\src\VRViewer.cs:243)
+  Thread -> id: 278 -> priority: 1 
+  Thread -> id: 764 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 12.725148 ms
+
+Unloading 1541 unused Assets to reduce memory usage. Loaded Objects now: 8239.
+Total: 5.614255 ms (FindLiveObjects: 0.619555 ms CreateObjectMapping: 0.290649 ms MarkObjects: 1.088421 ms  DeleteObjects: 3.613763 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at DynamicTelevisionScript.Start () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/Users/jakem/Documents/GitHub/Mark/Assets/OSVRUnity/src/VRViewer.cs Line: 277)
+(Filename:  Line: -1)
+
+[OSVR-Unity] Failed to create RenderManager.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.683030 ms
+
+Unloading 831 unused Assets to reduce memory usage. Loaded Objects now: 54032.
+Total: 11.449648 ms (FindLiveObjects: 2.372785 ms CreateObjectMapping: 0.780975 ms MarkObjects: 5.192976 ms  DeleteObjects: 3.101976 ms)
+
+[OSVR-Unity] Failed to create RenderManager.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
 [OSVR-Unity] Shutting down OSVR.
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-OSVR.Unity.ClientKit:Stop() (at C:\Users\jakem\Documents\GitHub\Mark\Assets\OSVRUnity\src\ClientKit.cs:159)
-OSVR.Unity.ClientKit:OnApplicationQuit() (at C:\Users\jakem\Documents\GitHub\Mark\Assets\OSVRUnity\src\ClientKit.cs:178)
  
-(Filename: C:/Users/jakem/Documents/GitHub/Mark/Assets/OSVRUnity/src/ClientKit.cs Line: 159)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
