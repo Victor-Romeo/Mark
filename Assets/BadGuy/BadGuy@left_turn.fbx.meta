@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 0c651dfa9e0a9457593de9163737ba2e
+timeCreated: 1461829569
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CH_MNPCLondonersGangSoldier1
+    100004: Head
+    100006: L_Clavicle
+    100008: L_Foot
+    100010: L_Forearm
+    100012: L_ForearmRoll
+    100014: L_Hand
+    100016: L_Index_A
+    100018: L_Index_B
+    100020: L_Index_C
+    100022: L_Leg
+    100024: L_Middle_A
+    100026: L_Middle_B
+    100028: L_Middle_C
+    100030: L_Pinky_A
+    100032: L_Pinky_B
+    100034: L_Pinky_C
+    100036: L_Ring_A
+    100038: L_Ring_B
+    100040: L_Ring_C
+    100042: L_Shoulder
+    100044: L_Thigh
+    100046: L_Thumb_B
+    100048: L_Thumb_C
+    100050: L_Toe
+    100052: Neck_1
+    100054: Pelvis
+    100056: R_Clavicle
+    100058: R_Foot
+    100060: R_Forearm
+    100062: R_ForearmRoll
+    100064: R_Hand
+    100066: R_Index_A
+    100068: R_Index_B
+    100070: R_Index_C
+    100072: R_Leg
+    100074: R_Middle_A
+    100076: R_Middle_B
+    100078: R_Middle_C
+    100080: R_Pinky_A
+    100082: R_Pinky_B
+    100084: R_Pinky_C
+    100086: R_Ring_A
+    100088: R_Ring_B
+    100090: R_Ring_C
+    100092: R_Shoulder
+    100094: R_Thigh
+    100096: R_Thumb_B
+    100098: R_Thumb_C
+    100100: R_Toe
+    100102: Spine_0
+    100104: Spine_1
+    100106: Spine_2
+    400000: //RootNode
+    400002: CH_MNPCLondonersGangSoldier1
+    400004: Head
+    400006: L_Clavicle
+    400008: L_Foot
+    400010: L_Forearm
+    400012: L_ForearmRoll
+    400014: L_Hand
+    400016: L_Index_A
+    400018: L_Index_B
+    400020: L_Index_C
+    400022: L_Leg
+    400024: L_Middle_A
+    400026: L_Middle_B
+    400028: L_Middle_C
+    400030: L_Pinky_A
+    400032: L_Pinky_B
+    400034: L_Pinky_C
+    400036: L_Ring_A
+    400038: L_Ring_B
+    400040: L_Ring_C
+    400042: L_Shoulder
+    400044: L_Thigh
+    400046: L_Thumb_B
+    400048: L_Thumb_C
+    400050: L_Toe
+    400052: Neck_1
+    400054: Pelvis
+    400056: R_Clavicle
+    400058: R_Foot
+    400060: R_Forearm
+    400062: R_ForearmRoll
+    400064: R_Hand
+    400066: R_Index_A
+    400068: R_Index_B
+    400070: R_Index_C
+    400072: R_Leg
+    400074: R_Middle_A
+    400076: R_Middle_B
+    400078: R_Middle_C
+    400080: R_Pinky_A
+    400082: R_Pinky_B
+    400084: R_Pinky_C
+    400086: R_Ring_A
+    400088: R_Ring_B
+    400090: R_Ring_C
+    400092: R_Shoulder
+    400094: R_Thigh
+    400096: R_Thumb_B
+    400098: R_Thumb_C
+    400100: R_Toe
+    400102: Spine_0
+    400104: Spine_1
+    400106: Spine_2
+    4300000: CH_MNPCLondonersGangSoldier1
+    7400000: mixamo.com
+    9500000: //RootNode
+    13700000: CH_MNPCLondonersGangSoldier1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
