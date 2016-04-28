@@ -67,6 +67,11 @@ public class DynamicTelevisionScript : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+    AudioSource audio = GetComponent<AudioSource>();
+     if(!audio.isPlaying){
+       Application.LoadLevel(2);
+      }
+    
 
-	}
+  }
 }
