@@ -134,9 +134,9 @@ public class LookAtFolders : MonoBehaviour {
 
 		if (state == -1) {
 			if (Input.GetButton ("Fire1")) {
-				state++;
-				audioSource.clip = startAudioClip;
-				audioSource.Play ();
+                audioSource.clip = startAudioClip;
+                audioSource.Play();
+                state++;
 			}
 		} else if (state == 0) {
 			if (!audioSource.isPlaying) {
@@ -172,9 +172,9 @@ public class LookAtFolders : MonoBehaviour {
 				}
 				if (Input.GetButton ("Fire2")) {
 					if (orangeFolder || yellowFolder || purpleFolder) {
-						state++;
-						audioSource.Play ();
-						GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().didNotProfile = true;
+                        audioSource.Play();
+                        GameObject.Find("InfoPasser").GetComponent<InfoPasser>().didNotProfile = true;
+                        state++;
 					}
 				}
 			}
@@ -184,9 +184,9 @@ public class LookAtFolders : MonoBehaviour {
 			}
 
 			if (firstChoiceIsDone) {
-				state++;
-				audioSource.clip = hurryUpAudioClip;
-				audioSource.Play ();
+                audioSource.clip = hurryUpAudioClip;
+                audioSource.Play();
+                state++;
 			}
 		} else if (state == 2) {
 			if (!audioSource.isPlaying) {

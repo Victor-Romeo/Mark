@@ -18,14 +18,20 @@ Platform assembly: C:\Users\jakem\Documents\GitHub\Mark\InformationChoiceTest_Da
 Loading C:\Users\jakem\Documents\GitHub\Mark\InformationChoiceTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\jakem\Documents\GitHub\Mark\InformationChoiceTest_Data\Managed\OSVR.ClientKit.dll (this message is harmless)
 Loading C:\Users\jakem\Documents\GitHub\Mark\InformationChoiceTest_Data\Managed\OSVR.ClientKit.dll into Unity Child Domain
-- Completed reload, in  0.068 seconds
+- Completed reload, in  0.207 seconds
 Platform assembly: C:\Users\jakem\Documents\GitHub\Mark\InformationChoiceTest_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\jakem\Documents\GitHub\Mark\InformationChoiceTest_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+desktop: 3200x1800 60Hz; virtual: 7680x1800 at 0,0
 <RI> Initializing input.
+<RI.Hid> Failed to create device file:
+ 2 The system cannot find the file specified.
+
+ 
+(Filename:  Line: 54)
+
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.721726 ms
+UnloadTime: 0.816431 ms
 [OSVR-Unity] In OnEnable()
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
@@ -43,30 +49,13 @@ UnloadTime: 0.721726 ms
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 278 -> priority: 1 
-  Thread -> id: 764 -> priority: 1 
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 12.725148 ms
-
-Unloading 1541 unused Assets to reduce memory usage. Loaded Objects now: 8239.
-Total: 5.614255 ms (FindLiveObjects: 0.619555 ms CreateObjectMapping: 0.290649 ms MarkObjects: 1.088421 ms  DeleteObjects: 3.613763 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at DynamicTelevisionScript.Start () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-[OSVR-Unity] Failed to create RenderManager.
+[OSVR-Unity] Display Startup failed. Check HMD connection.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.683030 ms
-
-Unloading 831 unused Assets to reduce memory usage. Loaded Objects now: 54032.
-Total: 11.449648 ms (FindLiveObjects: 2.372785 ms CreateObjectMapping: 0.780975 ms MarkObjects: 5.192976 ms  DeleteObjects: 3.101976 ms)
-
-[OSVR-Unity] Failed to create RenderManager.
+  Thread -> id: 324c -> priority: 1 
+  Thread -> id: 3540 -> priority: 1 
+[OSVR-Unity] HMD connection established. You can ignore previous error messages indicating Display Startup failure.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 

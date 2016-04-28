@@ -20,8 +20,8 @@ public class FindBadGuyGift : MonoBehaviour {
 	void Start () {
         aSource = GetComponent<AudioSource>();
         var passer = GameObject.Find("InfoPasser").GetComponent<InfoPasser>();
-        if (!passer)
-        {
+        //if (!passer)
+        //{
             findCorrectPerson = passer.foundCorrectPerson;
             didNotDiscriminate = passer.didNotProfile;
             if (findCorrectPerson)
@@ -47,7 +47,7 @@ public class FindBadGuyGift : MonoBehaviour {
                 }
             }
             aSource.Play();
-        }
+        //}
 	}
 
     float dTime = float.MaxValue;
