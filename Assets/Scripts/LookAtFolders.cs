@@ -64,158 +64,10 @@ public class LookAtFolders : MonoBehaviour {
 	void Update () {
 
 		if (!audioSource.isPlaying) {
-			coPresenceAnimator.SetFloat("Blend",0f);
+			coPresenceAnimator.SetFloat ("Blend", 0f);
 		} else {
-			coPresenceAnimator.SetFloat("Blend",1f);
+			coPresenceAnimator.SetFloat ("Blend", 1f);
 		}
-
-
-		if(state == -1){
-			if(Input.GetButton ("Fire1")){
-				state++;
-				audioSource.clip = startAudioClip;
-				audioSource.Play ();
-			}
-		} else if(state == 0){
-			if(!audioSource.isPlaying){
-				startIsDone = true;
-			}
-
-			if(startIsDone){
-
-				if (Input.GetButton ("Fire1")) {
-					if (orangeFolder) {
-						if (badGuyIndex == 2) {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = true;
-						} else {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = false;
-						}
-						Application.LoadLevel(1);
-					} else if (yellowFolder){
-						if (badGuyIndex == 1) {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = true;
-						} else {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = false;
-						}
-						Application.LoadLevel(1);
-					} else if (purpleFolder){
-						if (badGuyIndex == 0) {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = true;
-						} else {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = false;
-						}
-						Application.LoadLevel(1);
-					}
-				}
-
-				if (Input.GetButton ("Fire2")) {
-					if(orangeFolder || yellowFolder || purpleFolder){
-						state++;
-						audioSource.Play ();
-						GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().didNotProfile = true;
-					}
-				}
-			}
-		} else if(state == 1){
-			if(!audioSource.isPlaying){
-				firstChoiceIsDone = true;
-			}
-
-			if(firstChoiceIsDone){
-				state++;
-				audioSource.clip = hurryUpAudioClip;
-				audioSource.Play ();
-			}
-		}  else if(state == 2){
-			if(!audioSource.isPlaying){
-				hurryUpIsDone = true;
-			}
-
-			if(hurryUpIsDone){
-
-				if (Input.GetButton ("Fire1")) {
-					if (orangeFolder) {
-						if (badGuyIndex == 2) {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = true;
-						} else {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = false;
-						}
-						Application.LoadLevel(1);
-					} else if (yellowFolder){
-						if (badGuyIndex == 1) {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = true;
-						} else {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = false;
-						}
-						Application.LoadLevel(1);
-					} else if (purpleFolder){
-						if (badGuyIndex == 0) {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = true;
-						} else {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = false;
-						}
-						Application.LoadLevel(1);
-					}
-				}
-
-				if (Input.GetButton ("Fire2")) {
-					if(orangeFolder || yellowFolder || purpleFolder){
-						state++;
-						audioSource.Play ();
-						GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().didNotProfile = true;
-					}
-				}
-			}
-		} else if(state == 3){
-			if(!audioSource.isPlaying){
-				secondChoiceIsDone = true;
-			}
-
-			if(secondChoiceIsDone){
-				state++;
-				audioSource.clip = finalChoiceAudioClip;
-				audioSource.Play ();
-			}
-		} else if(state == 4){
-			if(!audioSource.isPlaying){
-				finalAudioIsDone = true;
-			}
-
-			if(finalAudioIsDone){
-
-				if (Input.GetButton ("Fire1")) {
-					if (orangeFolder) {
-						if (badGuyIndex == 2) {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = true;
-						} else {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = false;
-						}
-						Application.LoadLevel(1);
-					} else if (yellowFolder){
-						if (badGuyIndex == 1) {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = true;
-						} else {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = false;
-						}
-						Application.LoadLevel(1);
-					} else if (purpleFolder){
-						if (badGuyIndex == 0) {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = true;
-						} else {
-							GameObject.Find ("InfoPasser").GetComponent<InfoPasser>().foundCorrectPerson = false;
-						}
-						Application.LoadLevel(1);
-					}
-				}
-
-				if (Input.GetButton ("Fire2")) {
-					if(orangeFolder || yellowFolder || purpleFolder){
-						//maybe play audio source
-						Application.LoadLevel(1); 
-					}
-				}
-			}
-		} 
 
 		//Stare at folders
 		Debug.DrawRay (transform.position, transform.TransformDirection (Vector3.forward) * 100000, Color.green);
@@ -224,7 +76,7 @@ public class LookAtFolders : MonoBehaviour {
 			if (hit.transform.gameObject.tag == ("Folder")) {
 				if (hit.transform.gameObject.name == "OrangeCollider") {
 
-					if(!audioSource.isPlaying){
+					if (!audioSource.isPlaying) {
 						audioSource.clip = audios [2];
 					}
 
@@ -276,5 +128,154 @@ public class LookAtFolders : MonoBehaviour {
 			yellowAnimator.SetBool ("Animate", false);
 			orangeAnimator.SetBool ("Animate", false);
 		}
+
+
+		if (state == -1) {
+			if (Input.GetButton ("Fire1")) {
+				state++;
+				audioSource.clip = startAudioClip;
+				audioSource.Play ();
+			}
+		} else if (state == 0) {
+			if (!audioSource.isPlaying) {
+				startIsDone = true;
+			}
+
+			if (startIsDone) {
+
+				if (Input.GetButton ("Fire1")) {
+
+					if (orangeFolder) {
+						if (badGuyIndex == 2) {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = true;
+						} else {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = false;
+						}
+						Application.LoadLevel (1);
+					} else if (yellowFolder) {
+						if (badGuyIndex == 1) {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = true;
+						} else {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = false;
+						}
+						Application.LoadLevel (1);
+					} else if (purpleFolder) {
+						if (badGuyIndex == 0) {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = true;
+						} else {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = false;
+						}
+						Application.LoadLevel (1);
+					}
+
+					if (Input.GetButton ("Fire2")) {
+						if (orangeFolder || yellowFolder || purpleFolder) {
+							state++;
+							audioSource.Play ();
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().didNotProfile = true;
+						}
+					}
+				}
+			}
+		} else if (state == 1) {
+			if (!audioSource.isPlaying) {
+				firstChoiceIsDone = true;
+			}
+
+			if (firstChoiceIsDone) {
+				state++;
+				audioSource.clip = hurryUpAudioClip;
+				audioSource.Play ();
+			}
+		} else if (state == 2) {
+			if (!audioSource.isPlaying) {
+				hurryUpIsDone = true;
+			}
+
+			if (hurryUpIsDone) {
+
+				if (Input.GetButton ("Fire1")) {
+					if (orangeFolder) {
+						if (badGuyIndex == 2) {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = true;
+						} else {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = false;
+						}
+						Application.LoadLevel (1);
+					} else if (yellowFolder) {
+						if (badGuyIndex == 1) {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = true;
+						} else {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = false;
+						}
+						Application.LoadLevel (1);
+					} else if (purpleFolder) {
+						if (badGuyIndex == 0) {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = true;
+						} else {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = false;
+						}
+						Application.LoadLevel (1);
+					}
+				}
+
+				if (Input.GetButton ("Fire2")) {
+					if (orangeFolder || yellowFolder || purpleFolder) {
+						state++;
+						audioSource.Play ();
+						GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().didNotProfile = true;
+					}
+				}
+			}
+		} else if (state == 3) {
+			if (!audioSource.isPlaying) {
+				secondChoiceIsDone = true;
+			}
+
+			if (secondChoiceIsDone) {
+				state++;
+				audioSource.clip = finalChoiceAudioClip;
+				audioSource.Play ();
+			}
+		} else if (state == 4) {
+			if (!audioSource.isPlaying) {
+				finalAudioIsDone = true;
+			}
+
+			if (finalAudioIsDone) {
+
+				if (Input.GetButton ("Fire1")) {
+					if (orangeFolder) {
+						if (badGuyIndex == 2) {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = true;
+						} else {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = false;
+						}
+						Application.LoadLevel (1);
+					} else if (yellowFolder) {
+						if (badGuyIndex == 1) {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = true;
+						} else {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = false;
+						}
+						Application.LoadLevel (1);
+					} else if (purpleFolder) {
+						if (badGuyIndex == 0) {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = true;
+						} else {
+							GameObject.Find ("InfoPasser").GetComponent<InfoPasser> ().foundCorrectPerson = false;
+						}
+						Application.LoadLevel (1);
+					}
+				}
+
+				if (Input.GetButton ("Fire2")) {
+					if (orangeFolder || yellowFolder || purpleFolder) {
+						//maybe play audio source
+						Application.LoadLevel (1); 
+					}
+				}
+			}
+		} 
 	}
 }
