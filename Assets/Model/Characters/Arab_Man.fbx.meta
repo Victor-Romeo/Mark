@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: df9f39cb9524fb2458c841b52b6bb03e
-timeCreated: 1461692639
+timeCreated: 1461814755
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -170,6 +170,7 @@ ModelImporter:
     4300012: bottom
     4300014: Beard
     4300016: Body
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 1
@@ -180,11 +181,17 @@ ModelImporter:
     resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    animationImportErrors: 
+    animationImportErrors: '
+
+      Imported file ''Arab_Man'' conversion failed: Required human bone ''Hips'' not
+      found
+
+
+'
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -216,8 +223,409 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    human: []
-    skeleton: []
+    human:
+    - boneName: Lightsphere_Environment
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Light_floor.16
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Light_floor.7
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: light_sky
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Light_sky
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Light_sky.12
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Light_sky.6
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Arab_Man(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Lightsphere_Environment
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Background
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Background.2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: light_sky
+      position: {x: -0.00000009765625, y: 30.840092, z: 0.0000008789063}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky
+      position: {x: 0.00000009765625, y: 19.159906, z: -0.0000008789063}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.2
+      position: {x: 0.00000009765625, y: 16.594072, z: 15.811386}
+      rotation: {x: -4.971985e-17, y: 0.8119868, z: -0.5836758, w: 3.5739834e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.3
+      position: {x: 15.811388, y: 16.594072, z: -0.0000008789063}
+      rotation: {x: 0.41272113, y: -0.5741614, z: 0.41272113, w: 0.5741614}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.4
+      position: {x: 0.00000009765625, y: 4.5152464, z: 35.35534}
+      rotation: {x: -5.657131e-17, y: 0.92387956, z: -0.38268346, w: 2.3432604e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.5
+      position: {x: 20.412415, y: 9.984736, z: 20.412413}
+      rotation: {x: -0.1685713, y: 0.82941616, z: -0.40696713, w: -0.34355542}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.6
+      position: {x: 35.35534, y: 4.5152464, z: -0.0000008789063}
+      rotation: {x: 0.27059805, y: -0.6532815, z: 0.27059805, w: 0.6532815}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.7
+      position: {x: 0.00000009765625, y: -15.028705, z: 47.434162}
+      rotation: {x: -6.0429124e-17, y: 0.9868825, z: -0.16144027, w: 9.885365e-18}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.8
+      position: {x: 20.412415, y: -10.427678, z: 40.82483}
+      rotation: {x: -0.0549578, y: 0.9446896, z: -0.21496376, w: -0.24152005}
+      scale: {x: 1.0000001, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.9
+      position: {x: 40.82483, y: -10.427678, z: 20.412413}
+      rotation: {x: -0.11314132, y: 0.83877677, z: -0.19086334, w: -0.49721602}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.10
+      position: {x: 47.434162, y: -15.028705, z: -0.0000008789063}
+      rotation: {x: 0.11415549, y: -0.69783133, z: 0.11415549, w: 0.69783133}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.11
+      position: {x: -15.811388, y: 16.594072, z: -0.0000008789063}
+      rotation: {x: 0.41272113, y: 0.5741614, z: -0.41272113, w: 0.5741614}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.12
+      position: {x: -35.35534, y: 4.5152464, z: -0.0000008789063}
+      rotation: {x: 0.27059805, y: 0.6532815, z: -0.27059805, w: 0.6532815}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.13
+      position: {x: -20.412415, y: 9.984736, z: 20.412413}
+      rotation: {x: 0.16857131, y: 0.82941616, z: -0.40696704, w: 0.34355548}
+      scale: {x: 1, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Light_sky.14
+      position: {x: -47.434162, y: -15.028705, z: -0.0000008789063}
+      rotation: {x: 0.11415549, y: 0.69783133, z: -0.11415549, w: 0.69783133}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.15
+      position: {x: -40.82483, y: -10.427678, z: 20.412413}
+      rotation: {x: 0.11314132, y: 0.8387768, z: -0.19086336, w: 0.49721602}
+      scale: {x: 1, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Light_sky.16
+      position: {x: -20.412415, y: -10.427678, z: 40.82483}
+      rotation: {x: 0.054957796, y: 0.9446896, z: -0.21496376, w: 0.24152003}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: Light_sky.17
+      position: {x: 0.00000009765625, y: 16.594072, z: -15.811389}
+      rotation: {x: 0.5836758, y: 0, z: -0, w: 0.8119868}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.18
+      position: {x: 0.00000009765625, y: 4.5152464, z: -35.35534}
+      rotation: {x: 0.38268346, y: -0.0000000033881957, z: 0.0000000014034367, w: 0.92387956}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.19
+      position: {x: -20.412415, y: 9.984736, z: -20.412415}
+      rotation: {x: 0.40696707, y: 0.34355545, z: -0.1685713, w: 0.82941616}
+      scale: {x: 1, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: Light_sky.20
+      position: {x: 0.00000009765625, y: -15.028705, z: -47.434162}
+      rotation: {x: 0.16144024, y: 0, z: -0, w: 0.9868825}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.21
+      position: {x: -20.412415, y: -10.427678, z: -40.82483}
+      rotation: {x: 0.21496381, y: 0.24151997, z: -0.054957792, w: 0.9446895}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_sky.22
+      position: {x: -40.82483, y: -10.427678, z: -20.412415}
+      rotation: {x: 0.1908634, y: 0.49721596, z: -0.11314134, w: 0.83877677}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: Light_sky.23
+      position: {x: 20.412415, y: 9.984736, z: -20.412415}
+      rotation: {x: 0.40696707, y: -0.34355545, z: 0.16857131, w: 0.82941616}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Light_sky.24
+      position: {x: 40.82483, y: -10.427678, z: -20.412415}
+      rotation: {x: 0.19086339, y: -0.49721596, z: 0.113141336, w: 0.83877677}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Light_sky.25
+      position: {x: 20.412415, y: -10.427678, z: -40.82483}
+      rotation: {x: 0.21496378, y: -0.24151999, z: 0.054957796, w: 0.9446895}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: lights_floor
+      position: {x: -0.00000009765625, y: -30.840092, z: 0.00000009765625}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor
+      position: {x: 0.00000009765625, y: -19.159906, z: -0.00000009765625}
+      rotation: {x: -0.7071068, y: -7.144483e-16, z: 7.1444826e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.2
+      position: {x: 15.811388, y: -16.594072, z: -0.00000009765625}
+      rotation: {x: -0.41272113, y: -0.5741614, z: -0.41272113, w: 0.5741614}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.3
+      position: {x: 0.00000009765625, y: -16.594072, z: 15.811388}
+      rotation: {x: -4.971985e-17, y: 0.8119868, z: 0.5836758, w: -3.5739834e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.4
+      position: {x: 35.35534, y: -4.5152464, z: -0.00000009765625}
+      rotation: {x: -0.2705981, y: -0.65328145, z: -0.2705981, w: 0.65328145}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.5
+      position: {x: 20.412415, y: -9.984736, z: 20.412415}
+      rotation: {x: 0.1685713, y: 0.82941616, z: 0.40696713, w: -0.3435554}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: Light_floor.6
+      position: {x: 0.00000009765625, y: -4.5152464, z: 35.35534}
+      rotation: {x: -5.6571306e-17, y: 0.9238795, z: 0.38268355, w: -2.3432609e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.7
+      position: {x: 47.434162, y: 15.028705, z: -0.00000009765625}
+      rotation: {x: -0.114155516, y: -0.69783133, z: -0.114155516, w: 0.69783133}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.8
+      position: {x: 40.82483, y: 10.427678, z: 20.412415}
+      rotation: {x: 0.11314139, y: 0.8387767, z: 0.19086345, w: -0.49721602}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Light_floor.9
+      position: {x: 20.412415, y: 10.427678, z: 40.82483}
+      rotation: {x: 0.054957826, y: 0.9446895, z: 0.21496388, w: -0.24152003}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Light_floor.10
+      position: {x: 0.00000009765625, y: 15.028705, z: 47.434162}
+      rotation: {x: -6.0429124e-17, y: 0.9868825, z: 0.16144027, w: -9.885365e-18}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.11
+      position: {x: -15.811388, y: -16.594072, z: -0.00000009765625}
+      rotation: {x: -0.41272113, y: 0.5741614, z: 0.41272113, w: 0.5741614}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.12
+      position: {x: -20.412415, y: -9.984736, z: 20.412415}
+      rotation: {x: -0.16857132, y: 0.82941616, z: 0.4069671, w: 0.34355548}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+      transformModified: 1
+    - name: Light_floor.13
+      position: {x: -35.35534, y: -4.5152464, z: -0.00000009765625}
+      rotation: {x: -0.2705981, y: 0.65328145, z: 0.2705981, w: 0.65328145}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.14
+      position: {x: -20.412415, y: 10.427678, z: 40.82483}
+      rotation: {x: -0.054957796, y: 0.9446896, z: 0.21496376, w: 0.24152003}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.15
+      position: {x: -40.82483, y: 10.427678, z: 20.412415}
+      rotation: {x: -0.11314132, y: 0.8387768, z: 0.19086336, w: 0.49721602}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Light_floor.16
+      position: {x: -47.434162, y: 15.028705, z: -0.00000009765625}
+      rotation: {x: -0.114155516, y: 0.69783133, z: 0.114155516, w: 0.69783133}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.17
+      position: {x: 0.00000009765625, y: -16.594072, z: -15.811388}
+      rotation: {x: -0.5836758, y: 4.7326966e-15, z: 5.589644e-15, w: 0.8119868}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.18
+      position: {x: -20.412415, y: -9.984736, z: -20.412415}
+      rotation: {x: -0.4069671, y: 0.34355548, z: 0.16857135, w: 0.8294161}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: Light_floor.19
+      position: {x: 0.00000009765625, y: -4.5152464, z: -35.35534}
+      rotation: {x: -0.38268352, y: -0.0000000016940949, z: -7.0170186e-10, w: 0.9238795}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.20
+      position: {x: -40.82483, y: 10.427678, z: -20.412415}
+      rotation: {x: -0.19086343, y: 0.49721596, z: 0.11314135, w: 0.8387768}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Light_floor.21
+      position: {x: -20.412415, y: 10.427678, z: -40.82483}
+      rotation: {x: -0.21496381, y: 0.24151999, z: 0.054957796, w: 0.9446895}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.22
+      position: {x: 0.00000009765625, y: 15.028705, z: -47.434162}
+      rotation: {x: -0.16144027, y: -0.0000000026720568, z: -4.371078e-10, w: 0.9868825}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.23
+      position: {x: 20.412415, y: -9.984736, z: -20.412415}
+      rotation: {x: -0.4069671, y: -0.3435555, z: -0.16857135, w: 0.8294161}
+      scale: {x: 1, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Light_floor.24
+      position: {x: 20.412415, y: 10.427678, z: -40.82483}
+      rotation: {x: -0.21496381, y: -0.24151999, z: -0.054957796, w: 0.9446895}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Light_floor.25
+      position: {x: 40.82483, y: 10.427678, z: -20.412415}
+      rotation: {x: -0.19086345, y: -0.49721596, z: -0.11314136, w: 0.8387768}
+      scale: {x: 1.0000001, y: 1, z: 1}
+      transformModified: 1
+    - name: target
+      position: {x: -0, y: 0.27752113, z: 0}
+      rotation: {x: 0, y: -0.3826834, z: -0, w: 0.92387956}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Place_your_Object_here
+      position: {x: -0, y: 0.21207939, z: 0}
+      rotation: {x: 0.19647011, y: 0.39736345, z: -0.0875126, w: 0.8921006}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Place_your_Object_here.2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 6.1232336e-17, y: 1, z: 6.1232336e-17, w: 0.000000043161425}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Target
+      position: {x: -0, y: -0.21207939, z: 0}
+      rotation: {x: 0, y: 2.7755576e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Target.2
+      position: {x: -0, y: 1, z: 0}
+      rotation: {x: 0, y: 2.7755576e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Null Object
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+      transformModified: 1
+    - name: Beard
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Body
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bottom
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EyesInner_Color
+      position: {x: -0, y: 167.94133, z: -0.06859741}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EyesOutter
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: headcover
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: top
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -228,7 +636,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
